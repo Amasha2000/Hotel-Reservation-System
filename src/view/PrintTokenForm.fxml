@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="806.0" prefWidth="752.0" style="-fx-border-color: Black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PrintTokenFormController">
+   <children>
+      <Label layoutX="43.0" layoutY="21.0" prefHeight="45.0" prefWidth="363.0" text="Print Token" textFill="#ad1dc4">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="216.0" layoutY="44.0" prefHeight="4.0" prefWidth="514.0" style="-fx-background-color: PURPLE;" />
+      <ImageView fitHeight="637.0" fitWidth="664.0" layoutX="44.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic12.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="143.0" fitWidth="156.0" layoutX="551.0" layoutY="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic10.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="43.0" layoutY="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic5.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="278.0" layoutY="196.0" onAction="#printOnAction" prefHeight="70.0" prefWidth="405.0" style="-fx-background-color: #5f27cd;" text="Click Here To Print Token" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="71.0" layoutY="518.0" onAction="#sendViaEmailOnAction" prefHeight="70.0" prefWidth="476.0" style="-fx-background-color: #17c0eb;" text="Click Here To Send Token Via Email" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </JFXButton>
+      <FontAwesomeIcon fill="#c40e9b" glyphName="STAR" layoutX="14.0" layoutY="50.0" size="1.3em" />
+   </children>
+</AnchorPane>

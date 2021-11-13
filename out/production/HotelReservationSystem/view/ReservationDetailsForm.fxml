@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="806.0" prefWidth="753.0" style="-fx-border-color: BLACK; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReservationDetailsFormController">
+   <children>
+      <Label layoutX="40.0" layoutY="14.0" prefHeight="49.0" prefWidth="294.0" text="Reservation Details" textFill="#ad0aad">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="322.0" layoutY="43.0" prefHeight="4.0" prefWidth="417.0" style="-fx-background-color: PURPLE;" />
+      <JFXTextField fx:id="txtName" labelFloat="true" layoutX="30.0" layoutY="101.0" prefHeight="36.0" prefWidth="626.0" promptText="Name">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtNIC" labelFloat="true" layoutX="30.0" layoutY="166.0" prefHeight="36.0" prefWidth="245.0" promptText="NIC">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtCheckOutDate" labelFloat="true" layoutX="414.0" layoutY="563.0" prefHeight="38.0" prefWidth="294.0" promptText="Check Out Date">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtCheckInDate" labelFloat="true" layoutX="30.0" layoutY="563.0" prefHeight="38.0" prefWidth="294.0" promptText="Check In Date">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtAddress" labelFloat="true" layoutX="30.0" layoutY="474.0" prefHeight="38.0" prefWidth="666.0" promptText="Home Address">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtEmail" labelFloat="true" layoutX="30.0" layoutY="384.0" prefHeight="38.0" prefWidth="666.0" promptText="Email">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtTelNum" labelFloat="true" layoutX="30.0" layoutY="318.0" prefHeight="38.0" prefWidth="234.0" promptText="Telephone Number">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtRoomNum" labelFloat="true" layoutX="30.0" layoutY="243.0" prefHeight="36.0" prefWidth="137.0" promptText="Room Number">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <JFXTextField fx:id="txtPayment" labelFloat="true" layoutX="30.0" layoutY="658.0" prefHeight="36.0" prefWidth="137.0" promptText="Payment">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </JFXTextField>
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="124.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="189.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="266.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="341.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="407.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="497.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="586.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="391.0" layoutY="586.0" size="0.8em" />
+      <FontAwesomeIcon glyphName="CERTIFICATE" layoutX="14.0" layoutY="681.0" size="0.8em" />
+      <FontAwesomeIcon fill="#310d8a" glyphName="TAG" layoutX="13.0" layoutY="47.0" size="1.7em" wrappingWidth="12.857142448425293" />
+   </children>
+</AnchorPane>

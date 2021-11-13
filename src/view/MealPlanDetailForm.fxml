@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="806.0" prefWidth="753.0" style="-fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MealPlanDetailFormController">
+   <children>
+      <ImageView fitHeight="446.0" fitWidth="642.0" layoutX="57.0" layoutY="329.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic2.jpg" />
+         </image>
+      </ImageView>
+      <JFXPasswordField fx:id="txtPassword" labelFloat="true" layoutX="52.0" layoutY="108.0" promptText="Enter Password">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></JFXPasswordField>
+      <JFXTextField fx:id="txtPlan" labelFloat="true" layoutX="52.0" layoutY="202.0" onAction="#moveToMealPlan" prefHeight="37.0" prefWidth="240.0" promptText="Enter name of the meal plan">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></JFXTextField>
+      <JFXTextField fx:id="txtPrice" labelFloat="true" layoutX="361.0" layoutY="205.0" promptText="Enter Price">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></JFXTextField>
+      <TableView fx:id="tblMealPlan" layoutX="56.0" layoutY="329.0" opacity="0.84" prefHeight="428.0" prefWidth="647.0">
+        <columns>
+          <TableColumn fx:id="colPlan" prefWidth="285.0" text="Meal Plan" />
+          <TableColumn fx:id="colPrice" prefWidth="220.0" text="Price" />
+            <TableColumn fx:id="colDelete" prefWidth="141.0" text="Delete" />
+        </columns>
+      </TableView>
+      <JFXButton buttonType="RAISED" layoutX="312.0" layoutY="114.0" onAction="#checkOnAction" prefHeight="42.0" prefWidth="110.0" style="-fx-background-color: #583db8;" text="Check" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="605.0" layoutY="203.0" onAction="#addOnAction" prefHeight="42.0" prefWidth="80.0" style="-fx-background-color: #1bbb21;" text="Add" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></JFXButton>
+      <Label layoutX="59.0" layoutY="34.0" prefHeight="35.0" prefWidth="319.0" text="Manipulate Meal Plans" textFill="#8711a8">
+         <font>
+            <Font name="Calibri Bold" size="30.0" />
+         </font>
+      </Label>
+      <Separator layoutX="361.0" layoutY="48.0" prefHeight="5.0" prefWidth="377.0" style="-fx-background-color: PURPLE;" />
+      <FontAwesomeIcon glyphName="WRENCH" layoutX="23.0" layoutY="58.0" size="1.5em" />
+   </children>
+</AnchorPane>

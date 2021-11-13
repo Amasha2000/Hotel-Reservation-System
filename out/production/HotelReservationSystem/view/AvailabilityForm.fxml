@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane opacity="0.74" prefHeight="806.0" prefWidth="753.0" style="-fx-border-color: BLACK; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AvailabilityFormController">
+   <children>
+      <JFXDatePicker fx:id="checkInDate" defaultColor="#530e90" layoutX="56.0" layoutY="107.0" prefHeight="50.0" prefWidth="240.0" promptText="Check In Date" showWeekNumbers="true" />
+      <JFXDatePicker fx:id="checkOutDate" defaultColor="#530e90" layoutX="426.0" layoutY="107.0" prefHeight="50.0" prefWidth="240.0" promptText="Check Out Date" />
+      <JFXComboBox fx:id="cmbAdults" labelFloat="true" layoutX="158.0" layoutY="224.0" promptText="Adults" />
+      <JFXComboBox fx:id="cmbChildren" labelFloat="true" layoutX="526.0" layoutY="225.0" promptText="Children" />
+      <JFXComboBox fx:id="cmbRoomNumber" labelFloat="true" layoutX="100.0" layoutY="329.0" promptText="Room Number" />
+      <JFXComboBox fx:id="cmbRoomType" labelFloat="true" layoutX="506.0" layoutY="329.0" promptText="Room Type" />
+      <FontAwesomeIcon fill="#1183e1" glyphName="MALE" layoutX="105.0" layoutY="251.0" size="2em" text="" />
+      <FontAwesomeIcon fill="#1183e1" glyphName="CHILD" layoutX="480.0" layoutY="251.0" size="2em" />
+      <FontAwesomeIcon fill="#1183e1" glyphName="BED" layoutX="448.0" layoutY="365.0" size="2em" text="" />
+      <FontAwesomeIcon fill="#1183e1" glyphName="CALCULATOR" layoutX="64.0" layoutY="351.0" size="1.3em" wrappingWidth="17.142862290143967" />
+      <Label layoutX="56.0" layoutY="23.0" prefHeight="50.0" prefWidth="683.0" text="CHECK AVAILABILITY" textFill="#a40b7e">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <Separator layoutX="399.0" layoutY="48.0" prefHeight="4.0" prefWidth="341.0" style="-fx-background-color: PURPLE;" />
+      <ImageView fitHeight="262.0" fitWidth="371.0" layoutX="33.0" layoutY="416.0" opacity="0.54" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic8.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="64.0" layoutY="612.0" prefHeight="31.0" prefWidth="300.0" style="-fx-background-color: BLACK;" text="Room Number 21 To 25           Quad" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="64.0" layoutY="521.0" prefHeight="31.0" prefWidth="300.0" style="-fx-background-color: BLACK;" text="Room Number 9 To 15             Double" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="64.0" layoutY="567.0" prefHeight="31.0" prefWidth="300.0" style="-fx-background-color: BLACK;" text="Room Number 16 To 20           Triple" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="64.0" layoutY="474.0" prefHeight="31.0" prefWidth="300.0" style="-fx-background-color: BLACK;" text=" Room Number 1 To 8               Single" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="428.0" opacity="0.76" style="-fx-background-color: white;" text="Room Number Details" textFill="#130f61">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <FontAwesomeIcon fill="#670684" glyphName="CIRCLE" layoutX="41.0" layoutY="494.0" />
+      <FontAwesomeIcon fill="#670684" glyphName="CIRCLE" layoutX="41.0" layoutY="543.0" text="" />
+      <FontAwesomeIcon fill="#670684" glyphName="CIRCLE" layoutX="41.0" layoutY="589.0" />
+      <FontAwesomeIcon fill="#670684" glyphName="CIRCLE" layoutX="41.0" layoutY="634.0" />
+      <JFXButton alignment="CENTER_RIGHT" buttonType="RAISED" layoutX="465.0" layoutY="487.0" onAction="#btnCheck" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #00b894;" text="CHECK AVAILABILITY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <FontAwesomeIcon fill="#0909ab" glyphName="CHECK" layoutX="486.0" layoutY="522.0" size="2em" text="" />
+      <FontAwesomeIcon glyphName="SEARCH" layoutX="21.0" layoutY="55.0" size="1.5em" />
+      <JFXTextField fx:id="txtUnderMaintenance" labelFloat="true" layoutX="41.0" layoutY="708.0" prefHeight="41.0" prefWidth="494.0" promptText="Enter the room number to set the availability as under maintenance">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXTextField>
+      <FontAwesomeIcon glyphName="REFRESH" layoutX="15.0" layoutY="734.0" size="1.3em" />
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="563.0" layoutY="728.0" onAction="#btnSave" prefHeight="41.0" prefWidth="145.0" style="-fx-background-color: #6ab04c;" text="SAVE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>

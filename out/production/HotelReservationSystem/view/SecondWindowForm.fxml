@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="secondPageContext" prefHeight="827.0" prefWidth="971.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SecondWindowFormController">
+   <children>
+      <ImageView fitHeight="193.0" fitWidth="195.0" layoutX="-9.0" layoutY="-37.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="766.0">
+         <image>
+            <Image url="@../assets/logo.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="815.0" prefHeight="25.0" prefWidth="976.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="14.0" layoutY="3.0" prefHeight="20.0" prefWidth="457.0" text="Hotel Reservation System - Blue Ocean" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="availabilityContext" layoutX="218.0" layoutY="5.0" prefHeight="806.0" prefWidth="753.0">
+         <children>
+            <AnchorPane layoutX="26.0" layoutY="14.0" prefHeight="250.0" prefWidth="701.0" style="-fx-border-color: BLACK;">
+               <children>
+                  <Label layoutX="44.0" layoutY="23.0" text="Room Details" textFill="#1d18ab" underline="true">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="118.0" text="Size:Medium Size">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="70.0" text="Number of Room : 25">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="170.0" prefHeight="27.0" prefWidth="288.0" text="Capacity:Single,Double,Triple,Quad">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="22.0" layoutY="87.0" size="0.7em" />
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="22.0" layoutY="135.0" size="0.7em" />
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="22.0" layoutY="187.0" size="0.7em" />
+                  <ImageView fitHeight="142.0" fitWidth="233.0" layoutX="268.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic8.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="159.0" fitWidth="200.0" layoutX="470.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic10.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="26.0" layoutY="278.0" prefHeight="250.0" prefWidth="701.0" style="-fx-border-color: BLACK;">
+               <children>
+                  <Label layoutX="44.0" layoutY="27.0" text="Meal Plan Details" textFill="#a81aab" underline="true">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="73.0" text="Local Meals">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="125.0" text="Chinese Meals">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="44.0" layoutY="177.0" text="French Meals">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="22.0" layoutY="90.0" size="0.7em" />
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="22.0" layoutY="142.0" size="0.7em" />
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="22.0" layoutY="194.0" size="0.7em" />
+                  <ImageView fitHeight="142.0" fitWidth="164.0" layoutX="170.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="283.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="120.0" fitWidth="193.0" layoutX="279.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../assets/pic16.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="120.0" fitWidth="164.0" layoutX="375.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic19.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="500.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic4.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="108.0" fitWidth="115.0" layoutX="570.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic23.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="26.0" layoutY="542.0" prefHeight="250.0" prefWidth="701.0" style="-fx-border-color: BLACK;">
+               <children>
+                  <Label layoutX="45.0" layoutY="30.0" text="Package Details" textFill="#3a83cd" underline="true">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="87.0" text="Wellness Package   : Rs 7800.00">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="125.0" text="Adventure Package : Rs 6000.00">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="45.0" layoutY="174.0" text="Event Package        : Rs 5500.00">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="21.0" layoutY="101.0" size="0.7em" />
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="21.0" layoutY="142.0" size="0.7em" />
+                  <FontAwesomeIcon glyphName="CIRCLE" layoutX="21.0" layoutY="191.0" size="0.7em" />
+                  <ImageView fitHeight="173.0" fitWidth="213.0" layoutX="328.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic14.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="492.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/pic1.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+      <ImageView fitHeight="139.0" fitWidth="215.0" layoutX="-1.0" layoutY="146.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic7.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="142.5" fitWidth="235.0" layoutY="282.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic6.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="10.0" layoutY="156.0" onAction="#openAvailabilityWindow" opacity="0.86" prefHeight="72.0" prefWidth="193.0" style="-fx-background-color: #0e0278;" text="Check Availabity" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <ImageView fitHeight="285.0" fitWidth="214.0" layoutY="532.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic4.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="214.0" layoutY="424.0" opacity="0.5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/pic1.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton buttonType="RAISED" layoutX="11.0" layoutY="255.0" onAction="#openReservationWindow" opacity="0.86" prefHeight="72.0" prefWidth="193.0" style="-fx-background-color: #6F1E51;" text="Make Reservation" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton alignment="TOP_RIGHT" buttonType="RAISED" layoutX="25.0" layoutY="751.0" onAction="#backToHome" prefHeight="52.0" prefWidth="177.0" style="-fx-background-color: #2a9609; -fx-border-color: BLACK; -fx-border-width: 3;" text="HOME" textAlignment="RIGHT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <FontAwesomeIcon fill="WHITE" glyphName="HOME" layoutX="58.0" layoutY="792.0" size="2.5em" text="" />
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="11.0" layoutY="359.0" onAction="#openRoomDetailWindow" opacity="0.86" prefHeight="72.0" prefWidth="193.0" style="-fx-background-color: PURPLE;" text="   Manipulate&#10;  Room Details" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="454.0" onAction="#openMealPlanDetailWindow" opacity="0.86" prefHeight="72.0" prefWidth="193.0" style="-fx-background-color: #4da9cc;" text="   Manipulate&#10;   Meal Plans" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="557.0" onAction="#openPackageWindow" opacity="0.86" prefHeight="72.0" prefWidth="193.0" style="-fx-background-color: #b825dd;" text="  Manipulate&#10;    Packages" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="10.0" layoutY="659.0" onAction="#openIncomeReportWindow" opacity="0.79" prefHeight="72.0" prefWidth="193.0" style="-fx-background-color: BLUE;" text=" View Income&#10;     Reports" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+   </children>
+</AnchorPane>
